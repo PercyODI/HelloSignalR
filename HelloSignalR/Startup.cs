@@ -34,10 +34,10 @@ namespace HelloSignalR
                 await context.Response.WriteAsync("Hello World!");
             });
 
-            app.UseSignalR(routes =>
-            {
-                routes.MapHub<Chat>("chat");
-            });
+            //app.UseSignalR(routes =>
+            //{
+            //    routes.MapHub<Chat>("chat");
+            //});
         }
     }
 }
