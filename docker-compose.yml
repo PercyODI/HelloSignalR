@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hellosignalr:
+    image: hellosignalr
+    build:
+      context: .
+      dockerfile: HelloSignalR/Dockerfile
